@@ -64,7 +64,6 @@ body{
 
 .card_data{
     padding: 4rem;
-    word-wrap: break-word;
 }
 
 .card_title,
@@ -87,7 +86,7 @@ body{
 }
 
 .card_description{
-    margin-bottom: 2.8rem;
+    margin-bottom: 6rem;
 }
 
 .card_title{
@@ -147,6 +146,10 @@ body{
 @media only screen and (max-width:600px) {
     .card_stats{
         grid-template-columns: 1fr;
+    }
+
+    .card_description{
+        margin-bottom: 3rem;
     }
 
     .card_data{
