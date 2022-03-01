@@ -90,7 +90,7 @@ body{
 }
 
 .card_title{
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-3);
     line-height: 1.2;
 }
 
